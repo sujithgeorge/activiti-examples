@@ -20,7 +20,7 @@ public class DemoApplicationConfiguration {
 
     private Logger logger = LoggerFactory.getLogger(DemoApplicationConfiguration.class);
 
-    @Bean
+    //@Bean
     public UserDetailsService myUserDetailsService() {
 
         InMemoryUserDetailsManager inMemoryUserDetailsManager = new InMemoryUserDetailsManager();
